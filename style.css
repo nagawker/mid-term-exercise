@@ -97,35 +97,37 @@ li {
     display: block;
 }
 
-.main-content{
+.main-content {
     width: 900px;
     margin: 0 auto;
     margin-top: 30px;
-
 }
 .p-title {
     font-size: 14px;
     color:white;
+    margin:0;
 }
 .p-text {
     font-size: 13px;
     color:white;
+    margin:0;
 }
 .p-link {
     color: white;
     font-size: 13px;
+    
 }
 .pic1 {
     background-image:url("/images/station.jpg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 .pic2 {
     background-image:url("/images/plant.jpg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 .pic3 {
     background-image:url("/images/pazkar.jpg");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 .row1 {
     display: flex;
@@ -135,4 +137,15 @@ li {
     width: 293px;
     height: 355px;
     border-radius: 0 0 25px 0;
+}
+.text-box {
+    background-color: rgba(125,125,125, 0.85);
+    border-radius: 0 0 25px 0;
+    width: 250px;
+    margin: 250px 10px 10px 10px;
+    padding: 5px;
+}
+.read-link {
+    display:flex;
+    justify-content: flex-end;
 }
