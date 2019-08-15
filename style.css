@@ -131,7 +131,7 @@ li {
 }
 .row1 {
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
 }
 .pic1, .pic2, .pic3 {
     width: 293px;
