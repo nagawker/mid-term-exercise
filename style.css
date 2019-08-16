@@ -114,8 +114,7 @@ li {
 }
 .p-link {
     color: white;
-    font-size: 13px;
-    
+    font-size: 13px;  
 }
 .pic1 {
     background-image:url("/images/station.jpg");
@@ -129,7 +128,7 @@ li {
     background-image:url("/images/pazkar.jpg");
     background-repeat: no-repeat;
 }
-.row1 {
+.row1 , .row2 {
     display: flex;
     justify-content: space-between;
 }
@@ -148,4 +147,61 @@ li {
 .read-link {
     display:flex;
     justify-content: flex-end;
+}
+.p2-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+    width:244px;
+    height: 34px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(235,235,235);
+    border-bottom-width: 2px;
+    margin:0;
+    margin-bottom: 15px;
+
+    display:flex;
+    align-items: center;
+}
+
+.p-pic {
+    width: 250px;
+    height: 110px;
+}
+.p2-link {
+    font-size: 13px;
+    color: #575757;
+    display: block;
+    margin: 0 0 8px;
+}
+.pic4, .pic5, .pic6 {
+    width: 292px;
+    height: 216px;
+    margin-top: 20px;
+    border-radius: 0 25px 0 0;
+    border-style: solid;
+    padding: 0 24px;
+    color: rgb(226,226,226);
+    border-width: 2px;
+    background-image: linear-gradient(rgb(255,255,255), rgb(242,242,242));
+}
+.sides {
+    height: 79px;
+    margin-top: 16px;
+}
+.map {
+    width: 73px;
+    height: 168px;
+}
+.details {
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px 0;
+}
+.map-side {
+    display: flex;
+    justify-content: space-between;
+}
+.pic6 > .p2-title {
+    margin-bottom: 6px;
 }
