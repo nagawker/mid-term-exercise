@@ -115,17 +115,21 @@ li {
 .p-link {
     color: white;
     font-size: 13px;  
+    background-image: url("/mid-term-exercise/images/read_more_white.png");
+    background-repeat: no-repeat; 
+    background-position: left;
+    width: 55px;
 }
 .pic1 {
-    background-image:url("/images/station.jpg");
+    background-image:url("/mid-term-exercise/images/station.jpg");
     background-repeat: no-repeat;
 }
 .pic2 {
-    background-image:url("/images/plant.jpg");
+    background-image:url("/mid-term-exercise/images/plant.jpg");
     background-repeat: no-repeat;
 }
 .pic3 {
-    background-image:url("/images/pazkar.jpg");
+    background-image:url("/mid-term-exercise/images/pazkar.jpg");
     background-repeat: no-repeat;
 }
 .row1 , .row2 {
@@ -163,7 +167,6 @@ li {
     display:flex;
     align-items: center;
 }
-
 .p-pic {
     width: 250px;
     height: 110px;
@@ -173,6 +176,15 @@ li {
     color: #575757;
     display: block;
     margin: 0 0 8px;
+    background-image: url("/mid-term-exercise/images/read_more_yellow.png");
+    background-repeat: no-repeat; 
+    background-position: left;
+}
+.details > .p2-link {
+    width: 90px;
+}
+.sides > .p2-link {  
+    width: 40px;
 }
 .pic4, .pic5, .pic6 {
     width: 292px;
@@ -205,3 +217,10 @@ li {
 .pic6 > .p2-title {
     margin-bottom: 6px;
 }
+.p-link:hover , .p2-link:hover {
+    color: rgb(0,90,165);
+    background-image: url("/mid-term-exercise/images/read_more_blue.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
