@@ -101,46 +101,42 @@
                 </ul>
             </nav>
     </header>
-    <main class="main-content">
+    <main class="cont-content">
         <div class="cont-1">
-            <h2>צור קשר</h2>
+            <a href="#">צור קשר</a>
         </div>
         <div class="cont-2">
             <div class="cont2-row1">
-                <a href="#">עמוד הבית</a>
-                <h2>צור קשר</h2>
+                <a href="index.html">עמוד הבית</a>
+                <h2>>&nbsp;צור קשר</h2>
             </div>
             <div class="cont2-row2">
                 <h2>צור קשר</h2>
                 <div class="cont-box">
                     <h2>צור קשר</h2>
-                    <h3>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם:</h3>
-                    <h3>* השדות המסומנים בכוכבית (*) הינם שדות חובה</h3>
-                    <form>
-                        <div>
-                            <label for="p-name">* שם פרטי
-                                <input id="p-name" type="text">
-                            </label>
+                    <h3 class="instruct">ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם:
+                    </h3>
+                    <h3 class="must">* השדות המסומנים בכוכבית (*) הינם שדות חובה</h3>
+                    <form class="cont-form">
+                        <div class="form-item">
+                            <label for="p-name">* שם פרטי</label>
+                            <input id="p-name" type="text" required>
                         </div>
-                        <div>
-                            <label for="l-name">* שם משפחה
-                                <input id="l-name" type="text">
-                            </label>
+                        <div class="form-item">
+                            <label for="l-name">* שם משפחה</label>
+                            <input id="l-name" type="text" required>
                         </div>
-                        <div>
-                            <label for="phone">* טלפון
-                                <input id="phone" type="text">
-                            </label>
+                        <div class="form-item">
+                            <label for="phone">* טלפון</label>
+                            <input id="phone" type="text" required>
                         </div>
-                        <div>
-                            <label for="email">* E-mail
-                                <input id="email" type="text">
-                            </label>
+                        <div class="form-item">
+                            <label for="email">* E-mail</label>
+                            <input id="email" type="text" required>
                         </div>
-                        <div>
-                            <label for="cont-text">
-                                <input id="cont-text" type="text" placeholder="תוכן הפנייה">
-                            </label>
+                        <div class="form-item">
+                            <label for="free-text"></label>
+                            <textarea name="free=text" id="free-text" cols="46" rows="7">תוכן הפנייה</textarea>
                         </div>
                         <div>
                             <button type="button">שלח
@@ -154,20 +150,20 @@
             <div class="cont3-row1">
                 <h2>פרטי יצירת קשר</h2>
                 <div>
-                    <h2>פז חברת נפט בע"מ</h2>
-                    <h3>יורו פארק, בניין הולנד</h3>
-                    <h3>קיבוץ יקום 60972</h3>
-                    <h3>טל. שירות לקוחות 1-800-774-774</h3>
-                    <h3>פקס. 09-8641714</h3>
+                    <h2 class="contact-details-title">פז חברת נפט בע"מ</h2>
+                    <h3 class="address">יורו פארק, בניין הולנד</h3>
+                    <h3 class="address">קיבוץ יקום 60972</h3>
+                    <h3 class="address">טל. שירות לקוחות 1-800-774-774</h3>
+                    <h3 class="address">פקס. 09-8641714</h3>
                 </div>
             </div>
             <div class="cont3-row2">
                 <h2>עוד בפז</h2>
                 <div>
-                    <h2>ליצירת קשר עם דוברות פז</h2>
-                    <a href="##">לחצו כאן>></a>
-                    <h2>רוצים לעבוד בפז?</h2>
-                    <a href="">לחצו כאן>></a>
+                    <h2 class="contact-details-title">ליצירת קשר עם דוברות פז</h2>
+                    <a href="javascript:void(0)" class="cont-link">לחצו כאן>></a>
+                    <h2 class="contact-details-title">רוצים לעבוד בפז?</h2>
+                    <a href="javascript:void(0)" class="cont-link">לחצו כאן>></a>
                 </div>
 
             </div>
