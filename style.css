@@ -402,11 +402,11 @@ footer {
     display:flex;
     justify-content: flex-end;
 }
-#first-hide , #last-hide , #phone-hide , #email-hide {
+#first-hide , #last-hide , #phone-hide , #email-hide , #email-p-hide {
     display: none;
     
 }
-.err-missing {
+.err-missing , .err-pattern {
     font-size: 12px;
     color: red;
 }

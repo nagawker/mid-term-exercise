@@ -15,11 +15,18 @@
     if (z == "") {
       document.getElementById("phone-hide").style.display = "block";
     }  
+
+    
     var t = document.forms["myForm"]["email"].value;
     if (t == "") {
       document.getElementById("email-hide").style.display = "block";
     } 
-    return false;
-    
-  }
+
+    var s = document.forms["myForm"]["email"].validity.typeMismatch;
+    if (s ="true") {
+      document.getElementById("email-p-hide").style.display = "block";
+    } 
   
+    return false;
+  }
+ 
