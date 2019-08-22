@@ -59,7 +59,6 @@ nav > ul {
     width: 17px;
     overflow: hidden;
     margin: 0 17px;
-    outline-color: gray;
     
 }
 
@@ -410,4 +409,7 @@ footer {
 .err-missing {
     font-size: 12px;
     color: red;
+}
+.dept-cont > h2.contact-details-title, .dept-cont > a.cont-link {
+    height:9px;
 }
