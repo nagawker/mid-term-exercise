@@ -315,7 +315,7 @@ footer {
     border: 1px solid #cbcbcb;
     border-radius: 0 25px 0 0;
     width: 385px;
-    height: 357px;
+    height: 367px;
     padding: 12px 18px;
     border-bottom: 0;
 }
@@ -344,6 +344,7 @@ footer {
 .form-item {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0 0 3px 0;
 }
 .cont-form > div > button {
@@ -358,6 +359,7 @@ footer {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 370px;
 }
 .cont3-row1 , .cont3-row2 {
     widows: 292px;
@@ -382,4 +384,16 @@ footer {
 }
 .contact-details-title , .address , .cont-link {
     margin:0;
+}
+.btn {
+    display:flex;
+    justify-content: flex-end;
+}
+#first-hide , #last-hide , #phone-hide , #email-hide {
+    display: none;
+    
+}
+.err-missing {
+    font-size: 12px;
+    color: red;
 }
