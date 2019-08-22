@@ -59,6 +59,7 @@ nav > ul {
     width: 17px;
     overflow: hidden;
     margin: 0 17px;
+    outline-color: gray;
     
 }
 
