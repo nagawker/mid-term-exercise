@@ -3,11 +3,13 @@
     var x = document.forms["myForm"]["f-name"].value;
     if (x == "") {
       document.getElementById("first-hide").style.display = "block";
+    
     }
 
     var y = document.forms["myForm"]["l-name"].value;
     if (y == "") {
       document.getElementById("last-hide").style.display = "block";
+    
     }  
     var z = document.forms["myForm"]["phone"].value;
     if (z == "") {
@@ -17,7 +19,7 @@
     if (t == "") {
       document.getElementById("email-hide").style.display = "block";
     } 
-    
+    return false;
     
   }
   

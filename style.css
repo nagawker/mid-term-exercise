@@ -54,8 +54,21 @@ nav > ul {
     list-style: none;
     margin: 0px;
 }
-.home {
-    padding-left: 15px;
+.crop , .crop:hover {
+    object-fit: cover;
+    width: 17px;
+    overflow: hidden;
+    margin: 0 17px;
+    
+}
+
+
+
+.active.crop {
+    object-fit: cover;
+    width:17px;
+    overflow: hidden;
+    margin-left:17px;
 }
 .main-menu > a , .sub-menu > a , .footer-menu > a {
     text-decoration: none;
