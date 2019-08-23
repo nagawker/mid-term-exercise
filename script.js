@@ -26,7 +26,7 @@
     if (s ="true") {
       document.getElementById("email-p-hide").style.display = "block";
     } 
-  
+
     return false;
   }
  
